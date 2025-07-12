@@ -30,7 +30,7 @@ fun DataStoreScreen(viewModel: DataStoreViewModel = viewModel()) {
     ) {
         item {
             Image(
-                painter = painterResource(id = R.drawable.android_logo),
+                painter = painterResource(id = R.drawable.mi_foto_perfil),
                 contentDescription = "Profile Picture",
                 modifier = Modifier
                     .background(Color(0xFF073042))
